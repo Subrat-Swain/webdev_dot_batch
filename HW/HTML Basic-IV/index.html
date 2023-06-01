@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border:1px solid black;
+            content:center;
+            border-collapse:collapse;
+        }
+        aside{
+            width:50%;
+            float:right;
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1>HTML Basic-IV Homework</h1>
+            <img src="/HTML-IV_HW.jpeg" width="350px" alt="Homework-IV">
+        </header>
+
+        <section>
+            <b>1.header tag vs h1 tag ?</b>
+            <p>A.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>header Tag</th>
+                        <th>h1 Tag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>header element represtns a container for introductory content or a set of navigational links.</li>
+                                <li>
+                                    A header element typically contains:
+                                    <ul>
+                                        <li>one or more heading elements(h1-h6)</li>
+                                        <li>logo or icon</li>
+                                        <li>authorship information</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    we can have several header element in one HTML document. However,<mark>header cannot be placed within a footer, address or another header element</mark>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>The h1 to h6 tags are used to define HTML headings.</li>
+                                <li>h1 defines the most important heading. h6 defines the least important heading</li>
+                                <li><mark>Only Use one h1 per page</mark>-this should represent the main heading/subject for the whole page</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br/>
+        <section>
+            <b>2.How to input audio,vedioe or file ?</b>
+            <p>A. Inside input element(/tag) type(attribute)=file with accept(attribute)=file_extension contains all the input format type that may include audio,vedio or file etc.
+                and each input must have a label to define labels for that input as follows:- </p>
+            
+                <label for="audio">Input Audio</label>
+                <input type="file" id="aud" name="audio" accept="audio/*">
+                <br/>
+                <labe for="vedio">Input Vedio</labe>
+                <input type="file" id="ved" name="vedio" accept="vedio/*">
+                <br/>
+                <label for="file">Enter File</label>
+                <input type="file" id="fil" name="file" accept=".gif,.jpg,.png">
+                <br/>
+                <label for="anyfile">Input any file</label>
+                <input type="file" id="any" name="anyfile" accept=".jpg,.pdf|audio/*|video/*|image/*|media_type">
+                <p><b>Note:-</b>accept attribute is only used with input type=file.</p>
+        </section>
+        <br/>
+        <section>
+            <b>3.Can we add header tag inside the footer tag ?</b>
+            <p>A.No,We cann't add header tag inside <mark>footer</mark> and <mark>address</mark> tags</p>
+        </section>
+        <br/>
+        <section>
+            <b>4.Can I use multiple header tag ?</b>
+            <p>A.Yes we can add <mark>multiple</mark> header tags.</p>
+        </section>
+        <br/>
+        <section>
+            <b>5.How to center an aside tag ?</b>
+            <p>A.</p>
+            <aside>
+                <p>This is an aside tag</p>
+            </aside>
+        </section>
+        <br/>
+        <section>
+            <b>6.What is the difference between main vs body tag ?</b>
+            <p>A. <b>main Tag:-</b>
+                        <ul>
+                            <li>main tag specifies the main content of a document.</li>
+                            <li>The content inside the main element should be unique to the document.</li>
+                            <li>It should not contain any content that is repeated 
+                                across documents such as sidebars, navigation links, copyright information, site logos, and search forms.</li>
+                            <li>There must be only one main element in a document & We should not add main tag under article, aside, footer, header or nav.</li>
+                        </ul>
+                    <b>body Tag:-</b>
+                        <ul>
+                            <li>body tag defines the document's body.</li>
+                            <li>the body element contains all the contents of an HTML document, such as headings, paragraphs, image, hyperlinks, tables, list etc.</li>
+                            <li>There can only be one body element in an HTML document</li>
+                        </ul>
+            </p>
+        </section>
+        <br/>
+        <section>
+            <b>7.Create DOM of tribute.html ?</b>
+            <br/>
+            <img src="/DOM_of_tribute.jpeg" width="500px" alt="Dom_Of_tribute.html">
+        </section>
+
+    </main>
+</body>
+</html>
