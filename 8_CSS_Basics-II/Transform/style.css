@@ -1,0 +1,43 @@
+.box{
+    
+    background-color: aqua;
+
+    /* transform:translate() */
+
+    /* transform:translateX(10px);
+    transform:translateY(10px);
+    transform:translate(100px,50px); */
+
+    /* transform:rotate() */
+
+    /* transform:rotate(-45deg); */
+
+    margin:200px;
+
+    /* transform:scale(2);
+    transform:scale(1,2);
+    transform:scale(1,4);
+    transform:scale(2,4);
+    transform:scale(2,4);
+    transform:scale(1,1);
+    transform:scale(1.5,1);
+    transform:scale(1.5,1.5);
+    transform:scale(1,2.5);
+    transform:scaleX(2);
+    transform:scaleY(2); */
+
+    /* transform:skew() */
+
+    transform:skew(20deg);
+    transform:skew(45deg);
+    transform:skew(90deg);
+    transform:skew(135deg);
+    transform:skew(260deg);
+    transform:skew(-180deg);
+    transform:skew(-45deg);
+    transform:skew(-45deg);
+    transform:skewX(45deg);
+    transform:skewX(-45deg);
+
+
+} 
