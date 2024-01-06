@@ -1,0 +1,52 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+
+    /* transition: 2s; */
+
+    /* Bad-Practice */
+    /* transition-property: all;
+    transition-delay: 5s; */
+
+    /* transition-property: background-color;
+    transition-delay: 5s; */
+
+    /* transition: background-color 1s ease 3s; */
+
+    /* transition: all 5s ease 1s; */
+
+    /* transition: transform 3s ease-out; */
+
+    /* transition: transform 3s cubic-bezier(1,-0.15, 0, 1.28); */
+
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+
+    transition: 3s ease;
+
+
+
+
+}
+
+.box:hover{
+    background-color: brown;
+
+    /* transform: rotate(45deg); */
+
+    transform: scale(2)translateX(500px) rotate(360deg);
+
+}
