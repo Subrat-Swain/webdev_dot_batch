@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#divi{
+    width: 700px;
+    height: 500px;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+.divClass{
+    margin-top: 30px;
+}
+
+#hidden{
+    display:none;
+}
